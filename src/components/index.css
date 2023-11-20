@@ -1,0 +1,92 @@
+nav{
+    display: grid;
+    grid-template-columns: .2fr 1fr 1fr;
+    padding: 20px;
+    font-size: larger;
+}
+.main--body{
+    display: flex;
+   gap: 30px;
+   
+}
+.off-white{
+    background-color:  hsl(0, 0%, 98%) ;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+.right button {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    float: inline-end;
+  background-color: white;
+  width: 150px;
+}
+.right{
+    display: inline-block;
+    gap: 10px;
+    
+}
+
+.login--btn{
+    border: none;
+    padding: 20px;
+    
+}
+.register--btn{
+    border: 1px solid rgb(31, 29, 31);
+    border-radius: 6px;
+
+}
+nav :hover{
+    cursor: pointer;
+}
+main{
+ margin:auto ; 
+ text-align: center;  
+ display: flex;
+}
+.hero--img{
+width: 50%;
+padding: 30px;
+}
+.text{
+    font-family: 'Epilogue', sans-serif;
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+   margin-left: 40px;
+   font-weight: 700;
+   
+   width: 70%;
+   text-align: left;
+       
+}
+.text p{
+    color: hsl(0, 0%, 41%);
+    width:70%;
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+   margin-top: 90px;
+}
+.text button{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding: 15px;
+   margin-left: 25%;
+}
+
+  
+  
